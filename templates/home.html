@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Application</title>
+</head>
+<body>
+<h1>FLASK APP IS RUNNING</h1>
+<h2>Please enter your the required details below:</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.ag.label }} {{ form.ag }}
+    <br>
+    {{ form.inc.label }} {{ form.inc }}
+    <br>
+    {{ form.l_amt.label }} {{ form.l_amt }}
+    <br>
+    {{ form.c_sco.label }} {{ form.c_sco }}
+    <br>
+    {{ form.m_emp.label }} {{ form.m_emp }}
+    <br>
+    {{ form.n_cl.label }} {{ form.n_cl }}
+    <br>
+    {{ form.i_rate.label }} {{ form.i_rate }}
+    <br>
+    {{ form.l_term.label }} {{ form.l_term }}
+    <br>
+    {{ form.dti.label }} {{ form.dti }}
+    <br>
+    {{ form.ed.label }} {{ form.ed }}
+    <br>
+    {{ form.em_typ.label }} {{ form.em_typ }}
+    <br>
+    {{ form.mar_st.label }} {{ form.mar_st }}
+    <br>
+    {{ form.mortg.label }} {{ form.mortg }}
+    <br>
+    {{ form.deped.label }} {{ form.deped }}
+    <br>
+    {{ form.l_purp.label }} {{ form.l_purp }}
+    <br>
+    {{ form.cosign.label }} {{ form.cosign }}
+    <br>
+    {{ form.submit() }}
+</form>
+</body>
+</html>
